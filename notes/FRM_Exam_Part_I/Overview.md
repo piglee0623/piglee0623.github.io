@@ -1,5 +1,5 @@
 **FRM Exam Part I**
-- ### Foundations of Risk Management 20%
+- ### [Foundations of Risk Management 20%](notes/FRM_Exam_Part_I/Foundations_of_Risk_Management.md)
 	This area focuses on foundational concepts of risk management and how risk management can add value to an organization. The broad knowledge points covered in Foundations of Risk Management include the following:
 	- Basic risk types, measurement, and management tools
 	- Creating value with risk management
@@ -13,8 +13,7 @@
 	- Ethics and the GARP Code of Conduct
 	- Enterprise risk management (ERM)
     
--   Quantitative Analysis 20%
-	- 
+- ### Quantitative Analysis 20%
 	This area focuses on basic probability and statistics, regression and time series analysis, and various quantitative techniques useful in risk management. The broad knowledge points covered in Quantitative Analysis include the following:
 	- Discrete and continuous probability distributions
 	- Estimating the parameters of distributions
@@ -27,8 +26,7 @@
 	- Simulation methods
 	- Machine learning
     
--   Financial Markets and Products 30%
-	- 
+- ### Financial Markets and Products 30%
 	This area focuses on market risk measurement and management techniques. The broad knowledge points covered in Market Risk Measurement and Management include the following:
 	- Structures and functions of financial institutions
 	- Structure and mechanics of over-the-counter (OTC) and exchange markets
@@ -39,8 +37,7 @@
 	- Corporate bonds
 	- Mortgage-backed securities
     
--   Valuation and Risk Models 20%
-	- 
+- ### Valuation and Risk Models 20%
 	This area focuses on a candidate’s understanding of credit risk management, with some focus given to structured finance and credit products such as collateralized debt obligations and credit derivatives. The broad areas of knowledge covered in readings related to Credit Risk Measurement and Management include the following:
 	- Credit analysis
 	- Default risk: quantitative methodologies
