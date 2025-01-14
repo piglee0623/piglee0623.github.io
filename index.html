@@ -21,8 +21,13 @@
             name: "Pig's Notes",
             loadSidebar: true,
             loadNavbar: true,
-            subMaxLevel: 2,
             coverpage: true,
+            alias: {
+                '/.*/_sidebar.md': '/_sidebar.md',
+                '/.*/_navbar.md': '/_navbar.md',
+                '/.*/_coverpage.md': '/_coverpage.md',
+            },
+            subMaxLevel: 2,
             search: { // 搜索插件配置
                 maxAge: 86400000, // 缓存时间，单位毫秒
                 paths: 'auto', // 自动扫描的 Markdown 文件
