@@ -7,20 +7,24 @@
 ### Basic Sense of Risks and Management
 
 Risk 
-: Possibility of the bad things that might happen;  
+: Possibility of the bad things that might happen
+: not always a bad thing - Good risk, Bad risk
 
-First Term
-: This is the definition of the first term.
+Risk management
+: actively select the types and levels **of risks** 
 
-Second Term
-: This is one definition of the second term.
-: This is another definition of the second term.
+Risk Management Process
+: Identify the risk, Analyze and measure risk, Assess the effects & balance between risk and reward, Manage using tools
 
-<dl>
-  <dt>First Term</dt>
-  <dd>This is the definition of the first term.</dd>
-  <dt>Second Term</dt>
-  <dd>This is one definition of the second term. </dd>
-  <dd>This is another definition of the second term.</dd>
-</dl>
-# Definition List
+Analyze and measure risk
+- Quantitative Risk Measures: **VaR**(Value at risk), uses the loss distribution associated with a position or 
+portfolio to estimate losses at a given level of likelihood
+- Qualitative Risk Measures: **Scenario analysis**, **Stress testing**
+
+Scenario analysis
+: Compare a best-case scenario to a worst-case scenario
+: factors the potential impact of several categories of risk, influences decision by qualitative concept
+: to understand the assumed full magnitude of potential losses even if the probability of the loss is very small
+
+
+
