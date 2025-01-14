@@ -1,5 +1,5 @@
-# this is a coverpage
+![logo](assets/favicon_io/apple-touch-icon.png)
 
-> let's begin
+$$ \text{Life} = \int_{\text{birth}}^{\text{death}} \text{study} \, dt $$
 
-[Start](README.md)
+[let's begin](README.md)
