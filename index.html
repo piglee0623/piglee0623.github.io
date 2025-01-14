@@ -43,6 +43,18 @@
                 previousText: 'prev',
                 nextText: 'next',
                 crossChapter: true,
+            },
+            markdown: {
+                renderer: {
+                    // 自定义解析器：支持 Definition List
+                    paragraph(text) {
+                        const dlRegex = /^(.*?):\s*(.*)$/gm;
+                        if (text.match(dlRegex)) {
+                            return text.replace(dlRegex, '<dl><dt>$1</dt><dd>$2</dd></dl>');
+                        }
+                        return text;
+                    }
+                }
             }
         };
     </script>
