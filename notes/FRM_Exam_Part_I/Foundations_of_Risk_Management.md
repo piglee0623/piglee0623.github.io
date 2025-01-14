@@ -11,19 +11,19 @@ Risk
 : not always a bad thing - Good risk, Bad risk
 
 Risk management
-: actively select the types and levels **of risks** 
+: actively select the types and levels of risks
 
 Risk Management Process
 : Identify the risk, Analyze and measure risk, Assess the effects & balance between risk and reward, Manage using tools
 
 Analyze and measure risk
-- Quantitative Risk Measures: **VaR**(Value at risk), uses the loss distribution associated with a position or 
+: Quantitative Risk Measures: **VaR**(Value at risk), uses the loss distribution associated with a position or 
 portfolio to estimate losses at a given level of likelihood
-- Qualitative Risk Measures: **Scenario analysis**, **Stress testing**
+: Qualitative Risk Measures: **Scenario analysis**, **Stress testing**
 
 Scenario analysis
 : Compare a best-case scenario to a worst-case scenario
-: factors the potential impact of several categories of risk, influences decision by qualitative concept
+: factors the potential impact of several categories of risk, influences decision by **qualitative concept**
 : to understand the assumed full magnitude of potential losses even if the probability of the loss is very small
 
 
