@@ -10,6 +10,20 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/assets/favicon_io/site.webmanifest">
+    <style>
+        /* 自定义样式 */
+        dl {
+            margin: 1em 0;
+            line-height: 1.5; /* 调整行间距，与正文一致 */
+        }
+        dt {
+            font-weight: bold; /* 术语加粗 */
+            margin-bottom: 0.2em; /* 控制术语和定义间距 */
+        }
+        dd {
+            margin-left: 0; /* 左对齐，无缩进 */
+        }
+    </style>
 </head>
 <body>
     <!-- Docsify 的挂载点 -->
@@ -46,11 +60,21 @@
             },
             markdown: {
                 renderer: {
-                    // 自定义解析器：支持 Definition List
+                    // 自定义渲染器：支持多行 Definition List
                     paragraph(text) {
-                        const dlRegex = /^(.*?):\s*(.*)$/gm;
+                        // 使用正则表达式解析定义列表
+                        const dlRegex = /((^[^\s:].+?)\n((?::\s.+\n?)+))/gm;
                         if (text.match(dlRegex)) {
-                            return text.replace(dlRegex, '<dl><dt>$1</dt><dd>$2</dd></dl>');
+                            return text.replace(dlRegex, (match, group, term, defs) => {
+                                // 将每行定义转换为 <dd>
+                                const definitionItems = defs
+                                    .split('\n')
+                                    .filter(line => line.trim().startsWith(':'))
+                                    .map(line => `<dd>${line.replace(/^:\s*/, '')}</dd>`)
+                                    .join('');
+                                // 返回包含 <dt> 和多个 <dd> 的结构
+                                return `<dl><dt>${term.trim()}</dt>${definitionItems}</dl>`;
+                            });
                         }
                         return text;
                     }
