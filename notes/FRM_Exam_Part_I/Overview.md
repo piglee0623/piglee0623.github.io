@@ -1,5 +1,5 @@
 **FRM Exam Part I**
-- ## Foundations of Risk Management 20%
+- ### Foundations of Risk Management 20%
 	This area focuses on foundational concepts of risk management and how risk management can add value to an organization. The broad knowledge points covered in Foundations of Risk Management include the following:
 	- Basic risk types, measurement, and management tools
 	- Creating value with risk management
