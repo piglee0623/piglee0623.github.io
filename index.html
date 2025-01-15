@@ -70,7 +70,7 @@
                                 const definitionItems = defs
                                     .split('\n')
                                     .filter(line => line.trim().startsWith(':'))
-                                    .map(line => `<dd>${line.replace(/^:\s*/, '')}</dd>`)
+                                    .map(line => `<dd>${line.replace(/^:\s*/, '-')}</dd>`)
                                     .join('');
                                 // 返回包含 <dt> 和多个 <dd> 的结构
                                 return `<dl><dt>${term.trim()}</dt>${definitionItems}</dl>`;
