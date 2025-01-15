@@ -54,7 +54,7 @@
             },
             subMaxLevel: 2,
             search: { // 搜索插件配置
-                maxAge: 86400000, // 缓存时间，单位毫秒
+                maxAge: 3600000, // 缓存时间，单位毫秒
                 paths: 'auto', // 自动扫描的 Markdown 文件
                 placeholder: 'Search notes...',
                 noData: '0 Search results',
@@ -66,28 +66,28 @@
                 nextText: 'next',
                 crossChapter: true,
             },
-            // markdown: {
-            //     renderer: {
-            //         // 自定义渲染器：支持多行 Definition List
-            //         paragraph(text) {
-            //             // 使用正则表达式解析定义列表
-            //             const dlRegex = /((^[^\s:].+?)\n((?::\s.+\n?)+))/gm;
-            //             if (text.match(dlRegex)) {
-            //                 return text.replace(dlRegex, (match, group, term, defs) => {
-            //                     // 将每行定义转换为 <dd>
-            //                     const definitionItems = defs
-            //                         .split('\n')
-            //                         .filter(line => line.trim().startsWith(':'))
-            //                         .map(line => `<dd>${line.replace(/^:\s*/, '- ')}</dd>`)
-            //                         .join('');
-            //                     // 返回包含 <dt> 和多个 <dd> 的结构
-            //                     return `<dl><dt>${term.trim()}</dt>${definitionItems}</dl>`;
-            //                 });
-            //             }
-            //             return text;
-            //         }
-            //     }
-            // }
+            markdown: {
+                renderer: {
+                    // 自定义渲染器：支持多行 Definition List
+                    paragraph(text) {
+                        // 使用正则表达式解析定义列表
+                        const dlRegex = /((^[^\s:].+?)\n((?::\s.+\n?)+))/gm;
+                        if (text.match(dlRegex)) {
+                            return text.replace(dlRegex, (match, group, term, defs) => {
+                                // 将每行定义转换为 <dd>
+                                const definitionItems = defs
+                                    .split('\n')
+                                    .filter(line => line.trim().startsWith(':'))
+                                    .map(line => `<dd>${line.replace(/^:\s*/, '- ')}</dd>`)
+                                    .join('');
+                                // 返回包含 <dt> 和多个 <dd> 的结构
+                                return `<dl><dt>${term.trim()}</dt>${definitionItems}</dl>`;
+                            });
+                        }
+                        return text;
+                    }
+                }
+            }
         };
     </script>
 
