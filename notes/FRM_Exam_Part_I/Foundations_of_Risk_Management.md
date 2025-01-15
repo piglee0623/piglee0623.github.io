@@ -54,4 +54,8 @@ Three lines of defense
 : **risk managers** implement day-to-day oversight
 : periodic independent oversight and assurance, such as **internal audit**
 
+Three lines of defense
+- **business line** that generates, owns, and manages risk (risk owner)
+- **risk managers** implement day-to-day oversight
+- periodic independent oversight and assurance, such as **internal audit**
 
