@@ -1,10 +1,10 @@
-**Foundations of Risk Management**
+# Foundations of Risk Management
 - [Basic Sense of Risk](#Basic-Sense-of-Risk)
 
 ---
 
 <a name="Basic-Sense-of-Risk"></a>
-### Basic Sense of Risks and Management
+## Basic Sense of Risks and Management
 
 Risk 
 : Possibility of the bad things that might happen
