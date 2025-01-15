@@ -47,10 +47,10 @@
             subMaxLevel: 2,
             search: { // 搜索插件配置
                 maxAge: 86400000, // 缓存时间，单位毫秒
-                paths: 'auto', // 自动扫描的 Markdown 文件
+                paths: ['/notes/'], // 自动扫描的 Markdown 文件
                 placeholder: 'Search notes...',
                 noData: '0 Search results',
-                depth: 2, // 搜索标题深度
+                depth: 6, // 搜索标题深度
             },
             repo: '',
             pagination: {
