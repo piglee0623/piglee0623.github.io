@@ -1,4 +1,3 @@
-- [Front Page](README.md)
 - Notes
   - [FRM Exam Part I](notes/FRM_Exam_Part_I/Overview.md)
   - [FRM Exam Part II](notes/FRM_Exam_Part_II/Overview.md)

@@ -46,16 +46,52 @@ Tail Risk
 : Expected shortfall is the EL of tail distribution
 
 Risk adjusted return on capital (RAROC)
-: =after-tax risk-adjusted expected return(EL is subtracted)/economic capital
+: = Reward / Risk
+: = after-tax risk-adjusted expected return(EL is subtracted)/economic capital
 : Solve conflicts between EL and UL
+: Should be higher than the cost of equity capital
+: **Business comparison**, allows to compare business lines that require different amounts of economic capital
+: **Investment analysis**, determine if return above hurdle rate
+: **Pricing strategies**, re-examine pricing strategy for different customer segments and products
+: **Risk management cost/benefit analysis**, compare the cost of risk managemen
 
 Three lines of defense
 : **business line** that generates, owns, and manages risk (risk owner)
 : **risk managers** implement day-to-day oversight
 : periodic independent oversight and assurance, such as **internal audit**
 
-Three lines of defense
-- **business line** that generates, owns, and manages risk (risk owner)
-- **risk managers** implement day-to-day oversight
-- periodic independent oversight and assurance, such as **internal audit**
+---
 
+<a name="Basic-Risk-Types"></a>
+## Basic Risk Types
+
+Market risk
+: **Equity price risk**, volatility of stock prices
+: **Interest rate risk**, volatility in interest rate
+: **Currency (Foreign exchange) risk**, monetary losses from unhedged foreign currency positions
+: **Commodity price risk**, price volatility of commodities, due to the concentration of specific commodities in the hands of relatively few market participants, Input/Output Price Risk, Indirect Exposure
+: General market risk (systematic risk), Specific risk (idiosyncratic risk)
+
+Credit risk
+: Failure of one party to fulfill its financial obligations to another party
+: **Bankruptcy risk/default risk**, **Downgrade risk**, **Counterparty risk**, settlement or Herstatt risk
+
+Liquidity Risk
+: **Funding Liquidity Risk**,  ability to raise the necessary cash (debt, cash requirements, margin requirements, collateral requirements, capital withdrawals)
+: **Market (Trading) Liquidity Risk**, not able to execute a transaction at the prevailing market price
+
+Operational Risk
+: inadequate or failed internal processes, people, and systems or from external events
+: **EXCLUDES** business, strategic and reputational risk
+: **INCLUDES** Legal risk, Regulatory risk, anti-money laundering risk, cyber risk to risks of terrorist attacks, rogue trading, model risk
+
+Business Risk
+: Customer demands, pricing decisions, supplier negotiations, and product innovation management
+
+Strategic Risk
+: Involves making critical, long-term decisions
+
+Reputation Risk
+: Sudden fall in market standing or brand with economic consequences, a **loss of confidence** in the firm's financial soundness, a **perception of a lack of fair** dealing with stakeholders
+: Often one of the outcomes of experiencing a loss in another risk category, such as significant credit risk, operational risks such as a cyberattack
+: Social media can amplify reputation risk, quickly widespreads inaccurate info
