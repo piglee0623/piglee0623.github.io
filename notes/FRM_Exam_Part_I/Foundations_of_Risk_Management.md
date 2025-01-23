@@ -55,7 +55,7 @@ Risk adjusted return on capital (RAROC)
 : **Business comparison**, allows to compare business lines that require different amounts of economic capital
 : **Investment analysis**, determine if return above hurdle rate
 : **Pricing strategies**, re-examine pricing strategy for different customer segments and products
-: **Risk management cost/benefit analysis**, compare the cost of risk managemen
+: **Risk management cost/benefit analysis**, compare the cost of risk management
 
 Three lines of defense
 : **business line** that generates, owns, and manages risk (risk owner)
@@ -103,6 +103,8 @@ Risk Aggregation
 : One single risk factor could ultimately spill over many kinds of risks
 : Different risks have different characteristics
 
+---
+
 <a name="Risk-Management"></a>
 ## Risk Management
 
@@ -120,8 +122,8 @@ Risk Appetite
 : Subject to external constraints
 
 Five-step risk management process
-1. Identify risk **appetite**
-2. **Map** known risks
-3. **Operationalize** the risk appetite
-4. **Implement** a plan
-5. **Monitor** and adjust the plan as needed
+: Identify risk **appetite**
+: **Map** known risks
+: **Operationalize** the risk appetite
+: **Implement** a plan
+: **Monitor** and adjust the plan as needed
